@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+    robot:
+        ports:
+            - 80:80
+        command: /bin/bash -c "composer install && cd src && php -S 0.0.0.0:80"
+

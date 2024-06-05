@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+    robot:
+        build: .
+        expose:
+            - 80
+        volumes:
+            - .:/www/

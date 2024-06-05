@@ -18,7 +18,7 @@ docker compose -f docker-compose.yml -f docker-compose.dev.yml up
 
 Access port 80 on localhost to run the script: [http://localhost](http://localhost)
 
-## Opportunities for improvement
+## Opportunities for Improvement
 
 - OpenAPI spec validation
 - Mock API for local development and integration testing
